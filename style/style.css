@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main{
+    width: 100%;
+    border: 1px solid red;
+    min-height: 80vh;
+    height: auto;
+    background-color: azure;
+    overflow:hidden;
+
+}
+
+.card{
+    
+}.card{
+    height: 300px ;
+    width:300px;
+}
+.sous{
+    max-width: 60%;
+}
+.grand{
+  width: 1000px;
+  position: relative;
+  left: 25%;
+  margin-top: 10%;
+  border:1px solid yellow ;
+  align-items: center;
+}
+
+.texte
+{
+}
+@media(max-width:1800px)
+{
+    .grand{
+        margin-top: 5%;
+    }
+  
+}
+@media(max-width:1400px)
+{
+   .grand{
+    width: 100%;
+    left: 15%;
+    
+   }
+}
+@media (max-width:1000px) {
+.grand{
+    left:10px
+}    
+}
